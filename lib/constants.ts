@@ -1,0 +1,146 @@
+export const CONTACT_INFO = {
+  name: "Muhammad Wasim",
+  email: "waseemrahii@gmail.com",
+  phone: "+92 345 5998484",
+  location: "6th Road, Rawalpindi, Pakistan",
+  summary: "Skilled Senior MERN Stack Developer specializing in building scalable web applications and leading high-impact projects. Expert in developing high-traffic e-commerce platforms with real-time features such as live store locators. Adept at creating smart, 3D, and visually stunning designs, with a strong focus on performance optimization, client satisfaction, and delivering top-quality solutions.",
+  socialLinks: {
+    github: "https://github.com/waseemrahii",
+    linkedin: "https://www.linkedin.com/in/muhammad-wasim-557523224",
+    twitter: "https://twitter.com/waseemrahii",
+  }
+}
+
+export const SKILLS = {
+  frontend: [
+    { name: "React", level: 95, icon: "⚛️" },
+    { name: "Next.js", level: 90, icon: "▲" },
+    { name: "TypeScript", level: 88, icon: "🔷" },
+    { name: "Tailwind CSS", level: 92, icon: "🎨" },
+    { name: "Framer Motion", level: 85, icon: "🎭" },
+    { name: "Redux", level: 80, icon: "🔄" },
+  ],
+  backend: [
+    { name: "Node.js", level: 90, icon: "🟢" },
+    { name: "Express.js", level: 88, icon: "🚀" },
+    { name: "MongoDB", level: 85, icon: "🍃" },
+    { name: "PostgreSQL", level: 82, icon: "🐘" },
+    { name: "GraphQL", level: 78, icon: "📊" },
+    { name: "REST APIs", level: 92, icon: "🔗" },
+  ],
+  tools: [
+    { name: "Git", level: 95, icon: "📦" },
+    { name: "Docker", level: 75, icon: "🐳" },
+    { name: "AWS", level: 70, icon: "☁️" },
+    { name: "Vercel", level: 88, icon: "▲" },
+    { name: "Figma", level: 85, icon: "🎨" },
+    { name: "WordPress", level: 90, icon: "📝" },
+  ],
+}
+
+export const PROJECTS = [
+  {
+    title: "VistaMart E-Commerce Platform",
+    description: "Built a full multi-role platform (Admin, Seller, Client). Implemented revenue tracking, commission handling, and auto payout distribution with React.js, Node.js, MongoDB, TailwindCSS, and Socket.io.",
+    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
+    tech: ["React", "Node.js", "MongoDB", "TailwindCSS", "Socket.io"],
+    github: "https://github.com/waseemrahii",
+    live: "https://vistamart.biz",
+    featured: true,
+    category: "Full Stack",
+  },
+  {
+    title: "Bulk Email Platform",
+    description: "Subscription-based platform with templating, list uploads, and delivery analytics. Scales to thousands of emails based on plan with advanced automation features.",
+    image: "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=600&h=400&fit=crop",
+    tech: ["Next.js", "TypeScript", "PostgreSQL", "Chart.js", "Prisma"],
+    github: "https://github.com/waseemrahii",
+    live: "https://bulkemail-user-panel.vercel.app",
+    featured: true,
+    category: "SaaS",
+  },
+  {
+    title: "Fooodee – Food Delivery System",
+    description: "Integrated ambassador, admin, and member panels. Live driver tracking, vendor discovery, and GPS-assisted delivery dispatching with real-time updates.",
+    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=600&h=400&fit=crop",
+    tech: ["React", "Node.js", "Socket.io", "MongoDB", "GPS API"],
+    github: "https://github.com/waseemrahii",
+    live: "https://resturant-fooodee.vercel.app",
+    featured: true,
+    category: "Full Stack",
+  },
+  {
+    title: "Gifts Pharmacy Platform",
+    description: "Prescription uploads, inventory management, secure TD Bank integration. Real-time delivery updates and customer support tools with role-based access.",
+    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop",
+    tech: ["React", "Node.js", "MySQL", "Payment Gateway", "JWT"],
+    github: "https://github.com/waseemrahii",
+    live: "https://giftspharmacy.com",
+    featured: true,
+    category: "E-commerce",
+  },
+  {
+    title: "AI-Powered Analytics Dashboard",
+    description: "Modern dashboard with machine learning insights, real-time data processing, and predictive analytics for business intelligence.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    tech: ["React", "Python", "TensorFlow", "D3.js", "FastAPI"],
+    github: "https://github.com/waseemrahii",
+    live: "https://example.com",
+    featured: false,
+    category: "AI/ML",
+  },
+  {
+    title: "Blockchain Voting System",
+    description: "Secure, transparent voting platform using blockchain technology with smart contracts and decentralized architecture.",
+    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop",
+    tech: ["Solidity", "Web3.js", "React", "Ethereum", "IPFS"],
+    github: "https://github.com/waseemrahii",
+    live: "https://example.com",
+    featured: false,
+    category: "Blockchain",
+  },
+  {
+    title: "Social Media Management Tool",
+    description: "Comprehensive social media management platform with scheduling, analytics, and multi-platform posting capabilities.",
+    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
+    tech: ["Vue.js", "Node.js", "Redis", "MongoDB", "Social APIs"],
+    github: "https://github.com/waseemrahii",
+    live: "https://example.com",
+    featured: false,
+    category: "SaaS",
+  },
+  {
+    title: "IoT Smart Home System",
+    description: "Complete smart home automation system with IoT devices, mobile app control, and AI-powered energy optimization.",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+    tech: ["React Native", "Arduino", "MQTT", "Firebase", "TensorFlow"],
+    github: "https://github.com/waseemrahii",
+    live: "https://example.com",
+    featured: false,
+    category: "IoT",
+  }
+]
+
+export const TESTIMONIALS = [
+  {
+    name: "Sarah Johnson",
+    role: "CEO, TechStart",
+    content: "Wasim delivered an exceptional e-commerce platform that exceeded our expectations. His attention to detail and technical expertise are outstanding.",
+    avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face",
+    rating: 5,
+  },
+  {
+    name: "Michael Chen",
+    role: "CTO, DataFlow",
+    content: "Working with Wasim was a pleasure. He transformed our complex requirements into a beautiful, functional dashboard that our team loves using.",
+    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+    rating: 5,
+  },
+  {
+    name: "Emily Rodriguez",
+    role: "Founder, CreativeHub",
+    content: "Wasim's expertise in WordPress development helped us create a stunning website that perfectly represents our brand. Highly recommended!",
+    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+    rating: 5,
+  },
+]

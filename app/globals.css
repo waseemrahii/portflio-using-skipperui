@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 254 249 195; /* yellow-50 */
+    --foreground: 31 41 55; /* gray-800 */
+    --card: 255 255 255;
+    --card-foreground: 31 41 55;
+    --popover: 255 255 255;
+    --popover-foreground: 31 41 55;
+    --primary: 234 179 8; /* yellow-500 */
+    --primary-foreground: 255 255 255;
+    --secondary: 254 249 195; /* yellow-50 */
+    --secondary-foreground: 31 41 55;
+    --muted: 254 249 195;
+    --muted-foreground: 107 114 128; /* gray-500 */
+    --accent: 254 240 138; /* yellow-200 */
+    --accent-foreground: 31 41 55;
+    --destructive: 239 68 68;
+    --destructive-foreground: 255 255 255;
+    --border: 254 240 138; /* yellow-200 */
+    --input: 254 240 138;
+    --ring: 234 179 8; /* yellow-500 */
+    --chart-1: 234 179 8;
+    --chart-2: 251 191 36;
+    --chart-3: 245 158 11;
+    --chart-4: 217 119 6;
+    --chart-5: 180 83 9;
+    --radius: 0.5rem;
+    --sidebar-background: 255 255 255;
+    --sidebar-foreground: 31 41 55;
+    --sidebar-primary: 234 179 8;
+    --sidebar-primary-foreground: 255 255 255;
+    --sidebar-accent: 254 240 138;
+    --sidebar-accent-foreground: 31 41 55;
+    --sidebar-border: 254 240 138;
+    --sidebar-ring: 234 179 8;
+  }
+  .dark {
+    --background: 31 41 55;
+    --foreground: 254 249 195;
+    --card: 31 41 55;
+    --card-foreground: 254 249 195;
+    --popover: 31 41 55;
+    --popover-foreground: 254 249 195;
+    --primary: 234 179 8;
+    --primary-foreground: 31 41 55;
+    --secondary: 55 65 81;
+    --secondary-foreground: 254 249 195;
+    --muted: 55 65 81;
+    --muted-foreground: 156 163 175;
+    --accent: 55 65 81;
+    --accent-foreground: 254 249 195;
+    --destructive: 220 38 38;
+    --destructive-foreground: 254 249 195;
+    --border: 55 65 81;
+    --input: 55 65 81;
+    --ring: 234 179 8;
+    --chart-1: 234 179 8;
+    --chart-2: 251 191 36;
+    --chart-3: 245 158 11;
+    --chart-4: 217 119 6;
+    --chart-5: 180 83 9;
+    --sidebar-background: 31 41 55;
+    --sidebar-foreground: 254 249 195;
+    --sidebar-primary: 234 179 8;
+    --sidebar-primary-foreground: 31 41 55;
+    --sidebar-accent: 55 65 81;
+    --sidebar-accent-foreground: 254 249 195;
+    --sidebar-border: 55 65 81;
+    --sidebar-ring: 234 179 8;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom styles for yellow theme */
+.yellow-glow {
+  box-shadow: 0 0 20px rgba(254, 205, 69, 0.3);
+}
+
+.yellow-gradient {
+  background: linear-gradient(135deg, #FECD45 0%, #FFA500 100%);
+}
+
+.glass-yellow {
+  background: rgba(254, 205, 69, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(254, 205, 69, 0.2);
+}
+
+/* Perspective for 3D effects */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+/* Animation keyframes */
+@keyframes accordion-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+
+@keyframes caret-blink {
+  0%,
+  70%,
+  100% {
+    opacity: 1;
+  }
+  20%,
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-accordion-down {
+  animation: accordion-down 0.2s ease-out;
+}
+
+.animate-accordion-up {
+  animation: accordion-up 0.2s ease-out;
+}
+
+.animate-caret-blink {
+  animation: caret-blink 1.25s ease-out infinite;
+}
