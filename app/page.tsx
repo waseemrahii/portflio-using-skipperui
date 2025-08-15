@@ -40,7 +40,7 @@ FULL STACK DEVELOPER
 
 CONTACT
 Phone: +92 345 5998484
-Email: waseemrahii@gmail.com
+Email: wasimrahii98@gmail.com
 Address: 6th Road, Rawalpindi, Pakistan
 GitHub: https://github.com/waseemrahii
 LinkedIn: www.linkedin.com/in/muhammad-wasim-557523224
@@ -1065,7 +1065,7 @@ export default function Portfolio() {
               >
                 {[
                   { label: "Projects Completed", value: 150, suffix: "+", icon: <Rocket className="w-8 h-8" /> },
-                  { label: "Happy Clients", value: 75, suffix: "+", icon: <Users className="w-8 h-8" /> },
+                  { label: "Happy Clients", value: 50, suffix: "+", icon: <Users className="w-8 h-8" /> },
                   { label: "Years Experience", value: 3, suffix: "+", icon: <Award className="w-8 h-8" /> },
                   { label: "Technologies", value: 7, suffix: "+", icon: <Layers className="w-8 h-8" /> },
                 ].map((stat, index) => (
