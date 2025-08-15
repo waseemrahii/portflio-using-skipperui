@@ -522,25 +522,25 @@ export default function Portfolio() {
       description: "Real-time data visualization and insights"
     },
     { 
-      src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=500&fit=crop", 
+      src: "/images/vistamart.png", 
       alt: "E-commerce Platform",
       title: "E-commerce Platform", 
       description: "Modern shopping experience with secure payments"
     },
     { 
-      src: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=800&h=500&fit=crop", 
+      src: "/images/image.png", 
       alt: "Food Delivery App",
       title: "Food Delivery System",
       description: "Real-time tracking and order management"
     },
     { 
-      src: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&h=500&fit=crop", 
+      src: "/images/pharmacy.png", 
       alt: "Pharmacy Platform",
       title: "Pharmacy Management",
       description: "Prescription handling and inventory system"
     },
     { 
-      src: "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=800&h=500&fit=crop", 
+      src: "/images/email.png", 
       alt: "Email Marketing",
       title: "Email Marketing Platform",
       description: "Bulk email campaigns with analytics"
@@ -562,25 +562,26 @@ export default function Portfolio() {
       description: "Advanced analytics platform with interactive charts and reporting."
     },
     {
-      src: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=500&h=400&fit=crop",
+      src: "/images/vistamart.png",
       alt: "Project 3",
       title: "E-commerce Store",
       description: "Full-featured online store with payment integration and inventory management."
     },
     {
-      src: "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=500&h=400&fit=crop",
+      // src: "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=500&h=400&fit=crop",
+      src:"/images/email.png",
       alt: "Project 4",
       title: "Email Marketing",
       description: "Comprehensive email marketing solution with automation and analytics."
     },
     {
-      src: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500&h=400&fit=crop",
+      src: "/images/image.png",
       alt: "Project 5",
       title: "Food Delivery",
       description: "Modern food delivery platform with real-time tracking and GPS integration."
     },
     {
-      src: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=500&h=400&fit=crop",
+      src: "/images/pharmacy.png",
       alt: "Project 6",
       title: "Pharmacy System",
       description: "Complete pharmacy management with prescription handling and inventory."
@@ -589,23 +590,34 @@ export default function Portfolio() {
 
   const cursorTrailImages = [
     "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=120&h=150&fit=crop",
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=120&h=150&fit=crop",
+    "/images/vistamart.png",
     "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=120&h=150&fit=crop",
-    "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=120&h=150&fit=crop",
-    "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=120&h=150&fit=crop",
+    "/images/email.png",
+    "/images/pharmacy.png",
+    "/images/project-7.png",
+    "/images/project-8.png",
+    "/images/project-9.png",
+    "/images/project-10.png",
+    "/images/project-11.png",
+    "/images/project-12.png",
   ]
 
   const galleryImages = [
     "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&h=600&fit=crop",
+    // "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
+    "/images/pharmacy.png",
+    // "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=800&h=600&fit=crop",
+    "/images/email.png",
     "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+    // "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=600&fit=crop",
+    // "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
     "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=600&fit=crop",
+    "/images/vistamart.png",
+     "/images/project-8.png",
+    "/images/project-9.png",
+    "/images/project-10.png",
+    "/images/project-11.png",
+    "/images/project-12.png",
   ]
 
   const tabsData = [
@@ -800,17 +812,17 @@ export default function Portfolio() {
           <div className="grid grid-cols-1 gap-4">
             <div className="p-4 bg-green-50 rounded-lg border border-green-200">
               <h4 className="font-semibold text-gray-800 mb-2">Small Projects</h4>
-              <p className="text-2xl font-bold text-green-600 mb-2">$20 - $2,000</p>
+              <p className="text-2xl font-bold text-green-600 mb-2">$20 - $100</p>
               <p className="text-sm text-gray-600">Landing pages, small business websites</p>
             </div>
             <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
               <h4 className="font-semibold text-gray-800 mb-2">Medium Projects</h4>
-              <p className="text-2xl font-bold text-blue-600 mb-2">$100 - $5,000</p>
+              <p className="text-2xl font-bold text-blue-600 mb-2">$100 - $500</p>
               <p className="text-sm text-gray-600">Web applications, e-commerce stores</p>
             </div>
             <div className="p-4 bg-purple-50 rounded-lg border border-purple-200">
               <h4 className="font-semibold text-gray-800 mb-2">Large Projects</h4>
-              <p className="text-2xl font-bold text-purple-600 mb-2">$15,000+</p>
+              <p className="text-2xl font-bold text-purple-600 mb-2">$500+</p>
               <p className="text-sm text-gray-600">Complex platforms, enterprise solutions</p>
             </div>
           </div>
@@ -1055,7 +1067,7 @@ export default function Portfolio() {
                   { label: "Projects Completed", value: 150, suffix: "+", icon: <Rocket className="w-8 h-8" /> },
                   { label: "Happy Clients", value: 75, suffix: "+", icon: <Users className="w-8 h-8" /> },
                   { label: "Years Experience", value: 3, suffix: "+", icon: <Award className="w-8 h-8" /> },
-                  { label: "Technologies", value: 25, suffix: "+", icon: <Layers className="w-8 h-8" /> },
+                  { label: "Technologies", value: 7, suffix: "+", icon: <Layers className="w-8 h-8" /> },
                 ].map((stat, index) => (
                   <motion.div
                     key={stat.label}
